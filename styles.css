@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #611626;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-repeat: repeat;
+	background-size: 120px auto;
+	background-color: #09AFB5;
+}
+h1 {
+	color: #0A4403;
+}
+#container {
+	background-color: #FCF0F4;
+	width: 952px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container #header {
+	background-image: url(images/DLIEZ-Travelers_01.jpg);
+	background-repeat: no-repeat;
+	height: 231px;
+}
+#container #navbar #logo {
+	float: left;
+	border-left: 1px solid #73473d;
+}
+#container #navbar #home {
+	float: left;
+}
+#container #navbar #about {
+	float: left;
+}
+#container #navbar #news {
+	float: left;
+}
+#container #navbar #contact {
+	float: left;
+}
+#container #navbar #search {
+	float: left;
+	border-right: 1px solid #73473d;
+}
+#container #main_content {
+	background-color: #FFF;
+	width: 930px;
+	padding: 10px;
+	clear: both;
+	border-right: 1px solid #73473d;
+	border-left: 1px solid #73473d;
+}
+#container #footer {
+	background-image: url(images/DLIEZ-Travelers_09.jpg);
+	background-repeat: no-repeat;
+	width: 950px;
+	height: 35px;
+	border-right: 1px solid #73473d;
+	border-bottom: 1px solid #73473d;
+	border-left: 1px solid #73473d;
+}
+.left_image {
+	float: left;	
+}
+.right_image {
+	float: right;	
+}
+#container #main_content p {
+	text-align: justify;
+}
+#container #main_content #owner {
+	text-align: center;
+}
+#container #main_content iframe {
+	text-align: center;
+
+}
+#container #main_content img {
+	text-align: center;
+}
